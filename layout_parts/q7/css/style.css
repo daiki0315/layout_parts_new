@@ -1,5 +1,93 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* float */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+.float_box {
+  width: 225px;
+  font-size: 16px;  
+  box-sizing: border-box;
+  margin-left: 50px;
+  float: left;
+}
+
+.float_box:first-child {
+  margin-left: 0;
+}
+
+/* table */
+.table_container {
+  display: table;
+}
+
+.table_box {
+  width: 225px;
+  font-size: 16px;  
+  box-sizing: border-box;
+  padding-left: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table_box:first-child {
+  padding-left: 0;
+}
+
+/* inline_block */
+.inlineblock_container {
+  display: table;
+}
+
+.inlineblock_box {
+  width: 225px;
+  font-size: 16px;  
+  box-sizing: border-box;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inlineblock_box:first-child {
+  margin-left: 0;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex_box {
+  width: 225px;
+  font-size: 16px;  
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* 固定と可変 */
+.container {
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
+}
+
+.staple {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flexible {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
 /* 回答はここに書いてね */
