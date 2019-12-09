@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q1__content {
+.q1_content {
   width: 940px;
   margin: 0 auto;
   padding: 20px;
@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-.q1__content__box {
+.q1_content_box {
   float: left;
   margin-left: 20px;
   padding: 20px;
@@ -23,11 +23,11 @@
   clear: both;
 }
 
-.q1__content__box:first-child {
+.q1_content_box:first-child {
   margin-left: 0;
 }
 
-.q1__content__text {
+.q1_content_text {
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
