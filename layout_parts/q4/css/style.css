@@ -1,42 +1,50 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.table_wrapper {
+  padding: 20px;
+}
+
 .table {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 20px;
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table:first-child {
+  margin-top: 0;
 }
 
 .table_cell {
-    padding: 20px;
-    display: table-cell;
+  padding: 20px;
+  display: table-cell;
+  
 }
 
-.box01 {
-    width: 100px;
-    background-color: #fdc8b8;
+.pink {
+  width: 100px;
+  background-color: #fdc8b8;
 }
 
-.box02 {
-    background-color: #e0abd9;
+.purple {
+  background-color: #e0abd9;
 }
 
-.box03 {
-    width: 100px;
-    background-color: #b6d8ed;
+.blue {
+  width: 100px;
+  background-color: #b6d8ed;
 }
 
-.box04 {
-    background-color: #e5d32e;
+.yellow {
+  background-color: #e5d32e;
 }
 
-.box05 {
-    background-color: #ec8f9a;
+.red {
+  background-color: #ec8f9a;
 }
 
-.box06 {
-    width: 500px;
-    background-color: #8fdcad;
+.green {
+  width: 500px;
+  background-color: #8fdcad;
 }
 /* 回答はここに書いてね */
