@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.container {
+.q5_content {
   background-color: #ECF1F2;
   width: 500px;
   height: 500px;
@@ -18,7 +18,6 @@
 
 .block01 {
   background-color: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
 }
@@ -83,9 +82,6 @@
 }
 
 .block09 {
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
