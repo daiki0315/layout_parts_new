@@ -28,7 +28,6 @@
 .table_box {
   width: 225px;
   font-size: 16px;  
-  box-sizing: border-box;
   padding-left: 50px;
   display: table-cell;
   vertical-align: middle;
@@ -39,11 +38,11 @@
 }
 
 /* inline_block */
-.inlineblock_container {
-  display: table;
+.inline-block_container {
+  font-size: 0;
 }
 
-.inlineblock_box {
+.inline-block_box {
   width: 225px;
   font-size: 16px;  
   box-sizing: border-box;
@@ -52,10 +51,11 @@
   vertical-align: middle;
 }
 
-.inlineblock_box:first-child {
+.inline-block_box:first-child {
   margin-left: 0;
 }
 
+/* flex */
 .flex_container {
   display: flex;
   justify-content: space-around;
@@ -70,24 +70,16 @@
 }
 
 /* 固定と可変 */
-.container {
-  width: 100%;
-  display: table;
-  box-sizing: border-box;
-}
-
-.staple {
+.stable {
+  float: left;
   width: 300px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .flexible {
+  float: right;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
-  display: inline-block;
   box-sizing: border-box;
-  vertical-align: top;
 }
 /* 回答はここに書いてね */
