@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q1_content {
-  width: 900px;
+.q1__content {
+  width: 940px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
   box-sizing: border-box;
 }
 
-.q1_content_box {
+.q1__content__box {
   float: left;
   margin-left: 20px;
   padding: 20px;
@@ -23,11 +23,11 @@
   clear: both;
 }
 
-.q1_content .q1_content_box:first-child {
+.q1__content__box:first-child {
   margin-left: 0;
 }
 
-.q1_content_text {
+.q1__content__text {
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
