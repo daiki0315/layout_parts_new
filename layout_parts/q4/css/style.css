@@ -18,7 +18,7 @@
 .table_cell {
   padding: 20px;
   display: table-cell;
-  
+  text-align: center;
 }
 
 .pink {
