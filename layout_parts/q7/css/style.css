@@ -70,18 +70,15 @@
 }
 
 /* 固定と可変 */
-.wrapper .container {
+.is-full {
   font-size: 0;
-}
-
-.wrapper .inline-block {
-  display: inline-block;
-  vertical-align: top;
 }
 
 .stable {
   width: 300px;
   font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .flexible {
@@ -90,5 +87,7 @@
   padding-left: 350px;
   font-size: 16px;
   box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
 }
 /* 回答はここに書いてね */
